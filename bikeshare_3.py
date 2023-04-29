@@ -46,6 +46,26 @@ def get_filters():
         print(f"Day: {day}")
 
     #___________________________________________________________
+<<<<<<< HEAD
+||||||| cfb6040
+    #TODO: for dicsussion on error testing
+    # if run_random == False and run_cycle_thru == True:
+    #     for c in range(len(cities)):
+    #         for m in range(len(months)):
+    #             for d in range(len(dayOfWeek)):
+    #                 city = cities[c]
+    #                 month = months[m]
+    #                 day = dayOfWeek[d]
+    #                 print(f"c: {c}, city: {city}")
+    #                 print(f"m: {m}, month: {month}")
+    #                 print(f"d: {d}, dayOfWeek: {day}")
+    #                 print("=" * 40)
+    #                 return city, month, day
+    # ___________________________________________________________
+
+=======
+
+>>>>>>> fb48d3bca6e39192712390a3105f3f4f8d51f866
     else:
         while True:
             city = input(f"Enter a city from list:\n {cities}").title()
@@ -120,7 +140,7 @@ def load_data(city, month, day):
 
         # filter by month to create the new dataframe
         month = month.title()
-        #TODO Discuss: df_by_month = df[df['month'] == month]
+
         df = df[df['month'] == month]
 
         # filter by day of week if applicable

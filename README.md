@@ -17,5 +17,13 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 # bike-share-3
 Github project bike-share-2
+<<<<<<< HEAD
 Updating README.md file for Task 2.C inclusive of some other words here
+||||||| cfb6040
+Updating README.md file for Task 2.C
+=======
+Updating README.md file for Task 2.C
+Good exercise for begginer students
+
+>>>>>>> fb48d3bca6e39192712390a3105f3f4f8d51f866
 
