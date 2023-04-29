@@ -18,4 +18,6 @@ It's important to give proper credit. Add links to any repo that inspired you or
 # bike-share-3
 Github project bike-share-2
 Updating README.md file for Task 2.C
+Good exercise for begginer students
+
 
