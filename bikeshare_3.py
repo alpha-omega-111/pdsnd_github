@@ -17,7 +17,7 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
-    Additional description: <here>
+    Additional description: <Add some other words here>
 
     Returns:
         (str) city - name of the city to analyze
