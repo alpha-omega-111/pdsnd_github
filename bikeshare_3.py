@@ -35,6 +35,7 @@ def get_filters():
               'November', 'December', "All"]
     dayOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "All"]
 
+    #This is testing mechanism without user input
     if run_random == True:
         city = random.choice(cities)
         month = random.choice(months)
