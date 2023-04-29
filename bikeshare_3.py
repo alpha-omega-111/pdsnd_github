@@ -46,21 +46,6 @@ def get_filters():
         print(f"Day: {day}")
 
     #___________________________________________________________
-    #TODO: for dicsussion on error testing
-    # if run_random == False and run_cycle_thru == True:
-    #     for c in range(len(cities)):
-    #         for m in range(len(months)):
-    #             for d in range(len(dayOfWeek)):
-    #                 city = cities[c]
-    #                 month = months[m]
-    #                 day = dayOfWeek[d]
-    #                 print(f"c: {c}, city: {city}")
-    #                 print(f"m: {m}, month: {month}")
-    #                 print(f"d: {d}, dayOfWeek: {day}")
-    #                 print("=" * 40)
-    #                 return city, month, day
-    # ___________________________________________________________
-
     else:
         while True:
             city = input(f"Enter a city from list:\n {cities}").title()
