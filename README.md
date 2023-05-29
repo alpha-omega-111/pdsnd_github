@@ -1,29 +1,16 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+29/04/2023.
 
 ### Project Title
-Replace the Project Title
+Udacity Version Control Project:Git, github and bikeshare-3
 
 ### Description
-Describe what your project is about and what it does
+The project filters the public "bikeshare" data by the city, month and date and provides stats in relation to the filtes 
 
 ### Files used
-Include the files used
+chicago.csv, new_york_coty.csv, washington.csv, bikeshere_3.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-# bike-share-3
-Github project bike-share-2
-<<<<<<< HEAD
-Updating README.md file for Task 2.C inclusive of some other words here
-||||||| cfb6040
-Updating README.md file for Task 2.C
-=======
-Updating README.md file for Task 2.C
-Good exercise for begginer students
-
->>>>>>> fb48d3bca6e39192712390a3105f3f4f8d51f866
-
+Udacity

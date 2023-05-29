@@ -46,26 +46,6 @@ def get_filters():
         print(f"Day: {day}")
 
     #___________________________________________________________
-<<<<<<< HEAD
-||||||| cfb6040
-    #TODO: for dicsussion on error testing
-    # if run_random == False and run_cycle_thru == True:
-    #     for c in range(len(cities)):
-    #         for m in range(len(months)):
-    #             for d in range(len(dayOfWeek)):
-    #                 city = cities[c]
-    #                 month = months[m]
-    #                 day = dayOfWeek[d]
-    #                 print(f"c: {c}, city: {city}")
-    #                 print(f"m: {m}, month: {month}")
-    #                 print(f"d: {d}, dayOfWeek: {day}")
-    #                 print("=" * 40)
-    #                 return city, month, day
-    # ___________________________________________________________
-
-=======
-
->>>>>>> fb48d3bca6e39192712390a3105f3f4f8d51f866
     else:
         while True:
             city = input(f"Enter a city from list:\n {cities}").title()
@@ -121,19 +101,12 @@ def load_data(city, month, day):
     print(f"Number of NaN is {no_nan}")
     print("="*40)
 
-
-
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df["Start Time"])
 
     # extract month and day of week from Start Time to create new columns
     df['month'] = df["Start Time"].dt.month_name()
     df['day_of_week'] = df["Start Time"].dt.day_name()
-
-    # months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october',
-    #           'november', 'december', "all"]
-
-    # month = input(f"Filter by or 'all', or choose from list of months:\n{months}")
 
     # filter by month if applicable
     if month != 'All':
@@ -145,6 +118,7 @@ def load_data(city, month, day):
 
         # filter by day of week if applicable
         if day != 'All':
+
         # filter by day of week to create the new dataframe
             day = day.title()
             #TODO Discuss: df_by_day = df[df['day_of_week'] == day]
@@ -232,8 +206,6 @@ def station_stats(df):
     except Exception as e:
         print(f"There are no no commonly used end stations on the day's filtered,\nerror: {e}")
         pass
-
-
 
     # display most frequent combination of start station and end station trip
     run_this = True
@@ -370,9 +342,6 @@ def main():
         for i in range(2):
             func_combined()
 
-    #TODO: How do I cycle through every permutation?
-    # elif run_random == False and run_cycle_thru == True:
-    #     func_combined()
 
     if if_restart == True:
         while True:
